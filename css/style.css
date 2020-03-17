@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  transition-duration: 500ms;
+}
+
 header,
 section {
   overflow-x: hidden;
